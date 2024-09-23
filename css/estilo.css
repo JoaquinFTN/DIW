@@ -4,6 +4,10 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 body{
     background-image: url(imagenes/fondoPantalla.jpg);
 }    
@@ -52,7 +56,9 @@ header{
 .lateral{
     float: left;
     width: 10%;
-    background-color: #11387375;
+    background-color: #113873;
+    border: 2px black solid;
+    box-shadow: 15px 15px 20px black;
     border-radius: 20px;
     padding: 2%;
     margin: 2%;
@@ -60,6 +66,14 @@ header{
 }
 .lateral > ul{
     list-style: none;
+}
+.lateral > ul > span{
+    font-size: x-large;
+    color: black;
+    font-weight: bolder;
+}
+.lateral > ul > li{
+    margin-top: 10%;
 }
 main{
     width: 80%;
@@ -99,7 +113,7 @@ td{
     border: 2px black solid;
 }
 .textoNoticia{
-    padding: 0% 10%;
+    padding: 0% 5%;
 }
 .textoNoticia > p, .textoNoticia > h1{
     margin: 2%;
@@ -112,7 +126,7 @@ td{
     font-style: italic;
     color: rgba(255, 255, 255, 0.4);
 }
-.parrafo > span{
+.parrafo > span, .textoNoticia > h1 > span{
     color: black;
     font-weight: bolder;
 }
