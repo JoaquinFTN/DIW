@@ -8,6 +8,9 @@ a{
     text-decoration: none;
     color: black;
 }
+ul{
+    list-style: none;
+}
 body{
     background-image: url(imagenes/fondoPantalla.jpg);
 }    
@@ -28,9 +31,6 @@ header{
     background-color: #205cb08e;
     border: 1px black solid;
     border-radius: 10px;
-}
-.navegacion > ul{
-    list-style: none;
 }
 .botones{
     width: 20%;
@@ -63,9 +63,6 @@ header{
     padding: 2%;
     margin: 2%;
     text-align: center;
-}
-.lateral > ul{
-    list-style: none;
 }
 .lateral > ul > span{
     font-size: x-large;
